@@ -85,3 +85,6 @@ input{
 *{
     font-family: sans-serif;
 }
+.affirm{
+    display:inline-block;
+}
