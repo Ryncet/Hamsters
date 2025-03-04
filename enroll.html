@@ -11,19 +11,24 @@
     <h1>Entry to Army Form</h1>
     <h2> Fill this out to join the army</h2>
     <div class = "ArmyForm">
-        <label for = "FirstName">First Name: </label>
-        <input type="text" name="FirstName" id="name" placeholder = "Enter First Name">
-        <button onclick="affirm()">Affirm me!</button>
-        <h1 id = "affirmation-display"></h1>
-        <label for = "LastName">Last Name: </label>
-        <input type="text" name="LastName" id="" placeholder = "Enter Last Name">
+        <div class = "affirm">
+            <label for = "FirstName">First Name: </label>
+            <input type="text" name="FirstName" id="name" placeholder = "Enter First Name">
+            <button onclick="affirm()">Affirm me!</button>
+        </div> 
+        <div class = "affirm">
+            <label for = "LastName">Last Name: </label>
+            <input type="text" name="LastName" id="name" placeholder = "Enter Last Name">
+            <button onclick="affirm()">Affirm me!</button>
+        </div>
         <label for = "date">Date of Birth</label>
-        <input type="date" name="Date" id="">
+        <input type="date" name="Date" id="name">
         <label for = "hamster">Hamster Verifier</label>
-        <input type="checkbox" name="hamster" id="">
+        <input type="checkbox" name="hamster" id="name">
         <label for="address">Address:</label>
-        <input type="text" name="address" id="" placeholder="123 fourfivesix lane">
+        <input type="text" name="address" id="name" placeholder="123 fourfivesix lane">
     </div>
+    <h3 id = "affirmation-display"></h3>
     <br>
     <br>
     <a id = "enroll" href="index.html">Return to News</a>
