@@ -26,4 +26,11 @@ function address(){
     let affirmationDisplay = document.getElementById('affirmation-display4');
     affirmationDisplay.innerHTML= affirmation;
 }
+function secretcode(){
+    let passwordInput = document.getElementById('Hamster');
+    let password = passwordInput.value;
+    if (password == "neBjk+RR"){
+        
+    }
+}
 
